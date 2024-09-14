@@ -33,15 +33,22 @@ The **Vehicle Tracking System** is a scalable application designed to track vehi
 
 1. **Clone the Repository**
 
-git clone https://github.com/your-repo/vehicle-tracking-system.git cd vehicle-tracking-system
+```
+git clone https://github.com/your-repo/vehicle-tracking-system.git
+cd vehicle-tracking-system
+```
 
 2. **Build Docker Images**
 
+```
 docker build -t vehicle-tracking-system .
+```
 
 3. **Run Docker Containers**
 
+```
 docker run -d -p 8080:8080 --name vehicle-tracking-system vehicle-tracking-system
+```
 
 4. **Configure AWS Services**
 
@@ -97,11 +104,3 @@ git commit -am 'Add new feature'
 git push origin feature/your-feature
 
 5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or inquiries, please contact [Your Name](mailto:your.email@example.com).
